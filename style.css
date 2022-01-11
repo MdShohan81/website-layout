@@ -53,3 +53,36 @@ nav a{
     padding: 5px 0;
     border-radius: 10px;
 }
+.container-cal{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left:250px;
+    margin-right:250px;
+    padding: 30px;
+    box-shadow: 20px 20px 100px gray;
+    background-color: rgb(178, 240, 237);
+}
+.calender{
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 2em repeat(5, 1fr);
+    grid-gap: 1em;
+}
+.date, .day {
+    background-color: lightseagreen;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day{
+    background-color: rgb(180, 176, 176);
+    font-size:20px;
+   
+}
+.other-month{
+    background-color: rgb(180, 176, 176);;
+}
